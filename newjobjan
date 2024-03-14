@@ -1,0 +1,22 @@
+Uma estrutura de repetição, da linguagem da  Python.
+Loop For - Itera sobre uma sequência (como uma lista, tupla, dicionário, etc.) ou um intervalo de números.
+frutas = ["maçã", "banana", "pera", "uva"]
+for fruta in frutas:
+print(fruta)
+Loop While - Executa um bloco de código enquanto uma condição especificada for verdadeira.
+contador = 0
+while contador < 5:
+print(contador)
+contador += 1
+Uma estrutura de tomada de decisão:
+Instrução if simples - Executa um bloco de código se a condição for verdadeira.
+idade = 18
+if idade >= 18:
+print("Você é maior de idade.")
+Instrução if e else - Executa um bloco de código se a condição for verdadeira e outro bloco de código se a condição for falsa.
+idade = 16
+if idade >= 18:
+print("Você é maior de idade.")
+else:
+print("Você é menor de idade.")
+
